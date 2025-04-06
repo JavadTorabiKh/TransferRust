@@ -1,0 +1,6 @@
+cargo new adder_api
+cd adder_api
+[dependencies]
+src/main.rs 
+
+cargo run
