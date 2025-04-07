@@ -51,4 +51,76 @@ http://localhost:8000
 
 ---
 
+## 🔧 Configuration
+You can configure the API via environment variables or a .env file:
 
+```env
+    BLOCKCHAIN_RPC_URL=https://fullnode.devnet.sui.io
+    PRIVATE_KEY=your_private_key_here
+    PORT=8000
+```
+
+---
+
+
+## 📮 Example API Usage
+Create Transaction
+POST /transaction
+
+Request Body:
+
+```json
+    {
+    "recipient": "0xabc123...",
+    "amount": 1000000,
+    "token": "SUI"
+    }
+```
+Response:
+
+```json
+    {
+    "status": "success",
+    "tx_hash": "0xdeadbeef1234567890"
+    }
+```
+
+---
+
+
+## 📁 Project Structure
+
+```bash
+    src/
+    ├── main.rs          # Application entry point
+    ├── handlers.rs      # API route handlers
+    ├── blockchain.rs    # Blockchain interaction logic
+    ├── models.rs        # Request/response models
+    └── config.rs        # App configuration
+```
+
+---
+
+
+## 🧪 Testing
+
+```bash
+    cargo test
+```
+You can also use Postman or curl to test endpoints manually.
+
+---
+
+
+## 🤝 Contributing
+Pull requests are welcome! If you’d like to help improve this project, feel free to fork it and submit a PR.
+
+---
+
+
+## 📜 License
+Licensed under the MIT License.
+
+📬 Contact
+Created by @your-username
+Feel free to reach out for questions, suggestions, or collaborations!
