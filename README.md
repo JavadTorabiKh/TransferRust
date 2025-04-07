@@ -46,4 +46,9 @@ A blazing-fast and secure API built with **Rust** to create and submit transacti
 ```bash
     cargo run
 ```
+The API will be available at:
+http://localhost:8000
+
+---
+
 
