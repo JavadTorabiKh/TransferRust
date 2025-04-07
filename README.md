@@ -41,3 +41,9 @@ A blazing-fast and secure API built with **Rust** to create and submit transacti
     cd rust-blockchain-api
     cargo build --release
 ```
+
+### Run the API
+```bash
+    cargo run
+```
+
