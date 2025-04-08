@@ -76,3 +76,12 @@ Never hardcode or commit your private key into the source code or version contro
 Use environment variables or secure secret managers where possible.
 
 ---
+
+
+## 🤝 Contributing
+
+We welcome contributions!
+
+Feel free to open issues or submit pull requests to make this tool even better.
+
+
