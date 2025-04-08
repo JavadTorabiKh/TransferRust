@@ -20,7 +20,7 @@ Before running the project, make sure you have the following installed:
     # Clone the repository
     git clone https://github.com/JavadTorabiKh/TransferRust.git
     # Change into the project directory
-    cd blockchain-tx-rust
+    cd apiTransfer
     # Build and run the project
     cargo run
 ```
