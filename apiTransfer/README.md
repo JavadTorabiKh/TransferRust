@@ -26,3 +26,14 @@ Before running the project, make sure you have the following installed:
     # Build and run the project
     cargo run
 ```
+
+---
+
+## ✨ Features
+
+- Generate and sign blockchain transactions
+- Connect to any blockchain node via HTTP/WebSocket
+- Fully configurable (network, keys, gas, etc.)
+- Lightweight, secure, and written in pure Rust
+
+---
