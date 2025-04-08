@@ -37,3 +37,18 @@ Before running the project, make sure you have the following installed:
 - Lightweight, secure, and written in pure Rust
 
 ---
+
+## 🧪 Example Usage
+```bash
+    cargo run -- \
+    --network https://mainnet.infura.io/v3/YOUR_API_KEY \
+    --from 0xYourAddress \
+    --to 0xRecipientAddress \
+    --amount 0.05 \
+    --private-key YOUR_PRIVATE_KEY
+```
+
+✅ Supports both mainnet and testnets (e.g., Goerli, Sepolia).
+⚠️ Always test on a testnet before using mainnet funds!
+
+---
