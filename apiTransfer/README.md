@@ -19,10 +19,8 @@ Before running the project, make sure you have the following installed:
 ```bash
     # Clone the repository
     git clone https://github.com/JavadTorabiKh/TransferRust.git
-
     # Change into the project directory
     cd blockchain-tx-rust
-
     # Build and run the project
     cargo run
 ```
