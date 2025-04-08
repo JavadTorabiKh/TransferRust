@@ -56,7 +56,7 @@ Before running the project, make sure you have the following installed:
 ## 📁 Project Structure
 
 ```bash
-    blockchain-tx-rust/
+    apiTransfer/
     ├── src/
     │   ├── main.rs        # Entry point
     │   ├── tx.rs          # Transaction logic
