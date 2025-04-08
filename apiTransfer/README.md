@@ -69,3 +69,10 @@ Before running the project, make sure you have the following installed:
 
 ---
 
+## 🛡️ Security Notice
+
+Never hardcode or commit your private key into the source code or version control.
+
+Use environment variables or secure secret managers where possible.
+
+---
