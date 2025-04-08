@@ -39,6 +39,7 @@ Before running the project, make sure you have the following installed:
 ---
 
 ## 🧪 Example Usage
+
 ```bash
     cargo run -- \
     --network https://mainnet.infura.io/v3/YOUR_API_KEY \
@@ -48,7 +49,23 @@ Before running the project, make sure you have the following installed:
     --private-key YOUR_PRIVATE_KEY
 ```
 
-✅ Supports both mainnet and testnets (e.g., Goerli, Sepolia).
+✅ Supports both mainnet and testnets (devnet or testnet).
+
 ⚠️ Always test on a testnet before using mainnet funds!
 
 ---
+
+## 📁 Project Structure
+
+```bash
+    blockchain-tx-rust/
+    ├── src/
+    │   ├── main.rs        # Entry point
+    │   ├── tx.rs          # Transaction logic
+    │   └── utils.rs       # Utility functions
+    ├── Cargo.toml         # Project metadata and dependencies
+    └── README.md          # This guide
+```
+
+---
+
