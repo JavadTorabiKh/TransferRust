@@ -38,7 +38,7 @@ A blazing-fast and secure API built with **Rust** to create and submit transacti
 
 ```bash
     git clone https://github.com/JavadTorabiKh/TransferRust.git
-    cd rust-blockchain-api
+    cd apiTransfer
     cargo build --release
 ```
 
