@@ -1,6 +1,6 @@
 # 🚀 Blockchain Transaction Generator [Rust]
 
-A blazing-fast CLI tool to create and broadcast blockchain transactions using the power of **Rust** 🦀.
+A blazing-fast tool to create and broadcast blockchain transactions using the power of **Rust** 🦀.
 
 ---
 
