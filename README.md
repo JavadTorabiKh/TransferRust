@@ -62,7 +62,6 @@ You can configure the API via environment variables or a .env file:
 
 ---
 
-
 ## 📮 Example API Usage
 Create Transaction
 POST /transaction
@@ -87,7 +86,6 @@ Response:
 
 ---
 
-
 ## 📁 Project Structure
 
 ```bash
@@ -101,7 +99,6 @@ Response:
 
 ---
 
-
 ## 🧪 Testing
 
 ```bash
@@ -111,18 +108,15 @@ You can also use Postman or curl to test endpoints manually.
 
 ---
 
-
 ## 🤝 Contributing
 Pull requests are welcome! If you’d like to help improve this project, feel free to fork it and submit a PR.
 
 ---
 
-
 ## 📜 License
 Licensed under the MIT License.
 
 ---
-
 
 ## 📬 Contact
 Created by javadtorabi462@gmail.com
