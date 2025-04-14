@@ -1,6 +1,63 @@
-cargo new adder_api
-cd adder_api
-[dependencies]
-src/main.rs 
+Rust Blockchain Transaction API - Development Roadmap
+======================================================
 
-cargo run
+Phase 1: Project Initialization ✅
+----------------------------------------
+- [x] Initialize Rust project with Cargo
+- [x] Set up project structure (main.rs, handlers.rs, blockchain.rs, models.rs, config.rs)
+- [x] Create basic HTTP server using Actix Web (or preferred framework)
+- [x] Implement basic health check endpoint (GET /health)
+
+Phase 2: Blockchain Logic 🛠️
+----------------------------------------
+- [ ] Define blockchain structure and block model
+- [ ] Implement transaction model (inputs, outputs, signatures)
+- [ ] Add function to create new transactions
+- [ ] Validate and sign transactions
+- [ ] Add transaction pool (mempool)
+- [ ] Submit transactions to the blockchain
+
+Phase 3: API Endpoints 🌐
+----------------------------------------
+- [ ] POST /transaction    -> Create and submit a new transaction
+- [ ] GET  /transaction/:id -> Get transaction details
+- [ ] GET  /block/:id       -> Get block information
+- [ ] GET  /chain           -> Return entire chain or latest blocks
+
+Phase 4: Configuration and Environment ⚙️
+----------------------------------------
+- [x] Create config.rs for environment variables
+- [ ] Add .env file support using dotenv crate
+- [ ] Allow dynamic port and network configuration
+
+Phase 5: Dockerization 🐳
+----------------------------------------
+- [x] Write Dockerfile for building the Rust app
+- [x] Write docker-compose.yml for local development
+- [ ] Optimize Docker image size with multi-stage builds
+- [ ] Add volume mounts for persistent storage (if needed)
+
+Phase 6: Testing and Validation ✅
+----------------------------------------
+- [ ] Add unit tests for blockchain logic
+- [ ] Add integration tests for API endpoints
+- [ ] Validate transaction inputs and outputs
+- [ ] Perform fuzz testing and error handling
+
+Phase 7: Security and Performance 🔒⚡
+----------------------------------------
+- [ ] Rate limiting and request validation
+- [ ] Secure transaction signing mechanism
+- [ ] Benchmark API performance under load
+- [ ] Add logging and monitoring (e.g., with Prometheus/Grafana)
+
+Phase 8: Future Improvements 🚀
+----------------------------------------
+- [ ] Web UI for submitting/viewing transactions
+- [ ] Wallet integration
+- [ ] Peer-to-peer networking between nodes
+- [ ] Consensus algorithm (e.g., Proof of Work / Proof of Stake)
+- [ ] Smart contract support (experimental)
+
+======================================================
+→ Keep iterating. Keep shipping. Keep learning. 🚀
