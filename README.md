@@ -9,9 +9,13 @@ A blazing-fast and secure API built with **Rust** to create and submit transacti
 ## 🚀 Features
 
 - 🦀 Written in **Rust** for performance and safety
+  
 - 🔐 Secure transaction signing and submission
+  
 - 🌐 Connects directly with your blockchain node
+  
 - ⚙️ Easy to integrate into any Web3 stack
+  
 - 📡 RESTful API interface for simple interaction
 
 ---
@@ -19,9 +23,13 @@ A blazing-fast and secure API built with **Rust** to create and submit transacti
 ## 📦 Tech Stack
 
 - **Language:** Rust
+  
 - **Web Framework:** [Actix Web](https://actix.rs/)
+  
 - **Blockchain Support:** Compatible with networks like **Sui**, custom blockchains, or other Move-based chains
+  
 - **Serialization:** JSON (via `serde`)
+  
 - **Security:** Optional JWT or API key auth (configurable)
 
 ---
@@ -32,6 +40,7 @@ A blazing-fast and secure API built with **Rust** to create and submit transacti
 
 - Rust (latest stable version)  
   Install via [rustup.rs](https://rustup.rs)
+  
 - Access to a blockchain node (e.g., a Sui full node or devnet node)
 
 ### Clone & Build
